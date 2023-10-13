@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasan's Home</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/hussain.png" alt="Hussain Nasir Khan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Hussain Nasir Khan</h1>
+
+          <p class="title">Senior Artificial Intelligence Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:engrhussainnasirkhan@gmail.com" class="contact-link">engrhussainnasirkhan@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+923055248219" class="contact-link">+92 (305) 524-8219</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Website</p>
+
+              <a href="https://aihints.com/" class="external-link">AiHints.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Islamabad, Pakistan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+
+
+          <li class="social-item">
+            <a href="https://github.com/HussainNasirKhan" class="social-link" target="_blank">
+              <ion-icon name="logo-github" role="img" class="md hydrated" aria-label="logo github"></ion-icon>
+            </a>
+          </li>
+
+
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/hussain-nasir-khan/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>♦ I am currently a Senior Artificial Intelligence Engineer at the Horizon Tech Services Pvt. Ltd., concentrating on computer vision and machine learning.</p>
+          
+<p>♦ I have developed/applied AI and ML algorithms to various applications, including but not limited to
+  ✔ Multimodal 3D-MRI Brain Tumor Segmentation via Modified 3D U-Net with Transformer
+  ✔ Covid-19 Detection using Deep Learning from CT Scans
+  ✔ Crop Yield Prediction using Machine Learning Models
+  ✔ Plant Disease Detection using VGG16
+  ✔ Crop Recommendation System
+  ✔ Time Series Forecasting of Gold Price
+  ✔ ANPR and Driver Face Recognition System
+</p>
+
+
+✪ Skills: Computer vision (Object Detection, Segmentation, Classification, Recognition, Summarization), Deep learning, Machine learning, Image Processing, Data Annotation, Data Science, Python, SQL, PowerBI, Keras, TensorFlow, Scikit-learn, OpenCV, Pillow, NumPy, Pandas, Matplotlib, Plotly, Seaborn, LabelImg etc.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-vision-48.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+
+                <p class="service-item-text">
+                  Development of Computer Vision Solutions for Healthcare, Agriculture, Sports, and Surveillance.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-machine-learning-48.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Using the power of machine learning to unlock data's hidden potential.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-data-science-64.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Advanced solutions for data-driven decision-making.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-blogging-60.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blogging</h4>
+
+                <p class="service-item-text">
+                  I write blog content across diverse categories at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+ 
+
+      </article>
+
+
+
+      
+
+
+      <!--
+        - #Education
+      -->
+
+      <article class="education" data-page="education">
+
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.S. Robotics and Intelligent Machine Engineering, NUST Islamabad</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Thesis: Multimodal 3D-MRI Brain Tumor Segmentation via Modified 3D U-Net with Transformer
+                <p class="timeline-text">Supervisor: Dr. Kashif Javed</p> 
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Sc. Industrial Engineering, UET Taxila</h4>
+
+              <span>2016 — 2020</span>
+
+              <p class="timeline-text">
+                Project Title: Design and Development of Automated Pharmacy
+                <p class="timeline-text">Supervisor: Dr. Salman Hussain</p>
+              </p>
+
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #Experience
+      -->
+
+      <article class="experience" data-page="experience">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Artificial Intelligence Engineer, Horizon Tech Services Pvt. Ltd</Label></h4>
+
+              <span>02/2023 — Present</span>
+
+              <p class="timeline-text">
+                ♦ Contributed to multiple computer vision projects, playing a key role in developing and optimizing robust and accurate detection algorithms for diverse use cases.
+                ♦ Developed and implemented state-of-the-art deep learning models, including convolutional neural networks (CNNs) to achieve exceptional object detection performance.
+                ♦ Collaborated closely with cross-functional teams to define project objectives, establish timelines, and allocate resources effectively.
+                ♦ Conducted thorough data analysis and preprocessing to optimize model performance, addressing challenges such as class imbalance, occlusion, and varying lighting conditions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder, AiHints</h4>
+
+              <span>10/2020 — Present</span>
+
+              <p class="timeline-text">
+                ♦ Founded and established a highly regarded website dedicated to providing comprehensive content and resources in the field of computer vision and artificial intelligence.
+                ♦ Developed and implemented a strategic vision for the website, positioning it as a go-to platform for industry professionals, researchers, and enthusiasts seeking knowledge and insights in computer vision and AI.
+                ♦ Managed a team of content creators and contributors, providing guidance, feedback, and support to ensure the consistent delivery of high-quality content.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Industrial Engineering Intern, Heavy Mechanical Complex</h4>
+
+              <span>07/2019 — 08/2019</span>
+
+              <p class="timeline-text">
+                ♦ Acquired Knowledge of industry environment and different departments of HMC
+                ♦ Learnt about Boilers, material handling equipment, and other Machines
+                ♦ Incorporated solutions that met various project challenges.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #Achievements
+      -->
+
+
+      <article class="achievements" data-page="achievements">
+
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Invited Talks & Awards</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">[Guest Speaker] Workshop on Computer Vision</h4>
+
+              <span>04/2023</span>
+
+              <p class="timeline-text">
+                National Intelligence Academy, Islamabad, Pakistan
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">[Guest Speaker] Workshop on Artificial Intelligence</h4>
+
+              <span>07/2023</span>
+
+              <p class="timeline-text">
+                National Intelligence Academy, Islamabad, Pakistan
+              </p>
+
+            </li>
+
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">[Guest Speaker] Workshop on AI and its Impact on Intelligence Gathering</h4>
+
+              <span>09/2023</span>
+
+              <p class="timeline-text">
+                National Intelligence Academy, Islamabad, Pakistan
+              </p>
+
+            </li>
+
+                
+
+          </ol>
+
+        </section>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Other Achievements</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">FashBell [Google Playstore Account]</h4>
+
+              <span>2019 — Present</span>
+
+              <p class="timeline-text">
+                It has more than 2 Million Downloads.
+              </p>
+
+            </li>  
+            
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">YouTube Channel</h4>
+
+              <span>2020 — Present</span>
+
+              <p class="timeline-text">
+                It has more than 13K Subscribers.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+
+
+
+      </article>
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Agriculture</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Healthcare</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Finance</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Surveillance</button>
+            </li>
+
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Agriculture</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Healthcare</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Finance</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Surveillance</button>
+              </li>
+
+
+
+            </ul>
+
+          </div>
+
+          
+
+
+
+
+
+
+
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="agriculture">
+              <a href="https://github.com/HussainNasirKhan/Plant-Disease-Detection-using-VGG16">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Plant Disease Detection</h3>
+
+                <p class="project-category">Agriculture</p>
+
+              </a>
+            </li>
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="agriculture">
+              <a href="https://github.com/HussainNasirKhan/Crop-Yield-Prediction">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="crop" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Crop Yield Prediction</h3>
+
+                <p class="project-category">Agriculture</p>
+
+              </a>
+            </li>
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="agriculture">
+              <a href="https://github.com/HussainNasirKhan/Crop-Recommendation-System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/crop-recommendation.png" alt="recommendation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Crop Recommendation</h3>
+
+                <p class="project-category">Agriculture</p>
+
+              </a>
+            </li>
+            
+
+
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="healthcare">
+              <a href="https://github.com/HussainNasirKhan/Covid-19-Detection-using-Deep-Learning-from-CT-Scans">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Covid-19.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Covid-19 Detection</h3>
+
+                <p class="project-category">Healthcare</p>
+
+              </a>
+            </li>
+
+
+
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="finance">
+              <a href="https://github.com/HussainNasirKhan/Time-Series-Forecasting-of-GoldPrice">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/forecasting.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Time Series Forecasting of Gold Price</h3>
+
+                <p class="project-category">Finance</p>
+
+              </a>
+            </li>
+
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="surveillance">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ANPR.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ANPR System</h3>
+
+                <p class="project-category">Surveillance</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="surveillance">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/face-recognition.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Face Recognition</h3>
+
+                <p class="project-category">Surveillance</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="surveillance">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/person-detection.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Person Detection in Restricted Zone</h3>
+
+                <p class="project-category">Surveillance</p>
+
+              </a>
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
